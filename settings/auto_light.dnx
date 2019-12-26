@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>347116451</Checksum>
+        <Checksum>2220734165</Checksum>
     </DebugChecksum>
     <Disassembly>
         <MixedMode>1</MixedMode>
@@ -99,7 +99,8 @@
         <Count>0</Count>
     </Breakpoints>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\Nayer Ayad\auto_street_light\main.c" "D:\College\Semester 7\Microcontrollers and Interfacing\Project\auto_street_light\main.c"</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>

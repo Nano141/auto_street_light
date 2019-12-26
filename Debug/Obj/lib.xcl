@@ -1,14 +1,14 @@
-"C:\Users\Nayer Ayad\auto_street_light\lib.c"
+"D:\College\Semester 7\Microcontrollers and Interfacing\Project\auto_street_light\lib.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Nayer Ayad\auto_street_light\Debug\Obj\lib.pbi.dep
+D:\College\Semester 7\Microcontrollers and Interfacing\Project\auto_street_light\Debug\Obj\lib.pbi.dep
 -o
 lib.pbi
 -I
-C:\Users\Nayer Ayad\auto_street_light
+D:\College\Semester 7\Microcontrollers and Interfacing\Project\auto_street_light
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
