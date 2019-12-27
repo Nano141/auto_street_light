@@ -23,8 +23,9 @@ void PORT_INIT(void){
   GPIO_PORTF_DEN_R |= 0x11;
   GPIO_PORTF_DIR_R &= ~0x11;
   GPIO_PORTF_PUR_R |= 0x11;
-  GPIO_PORTE_DEN_R |= 0x30;
+  GPIO_PORTE_DEN_R |= 0x34;
   GPIO_PORTE_DIR_R &=~ 0x30;
+  GPIO_PORTE_DIR_R |= 0x04;
   GPIO_PORTA_DEN_R |= 0x1c;
   GPIO_PORTA_DIR_R |= 0x1c;
 }
@@ -44,12 +45,12 @@ void Check_Move(int Delay){
   while(1){
     if ((GPIO_PORTE_DATA_R & LIGHT)){
     if ((GPIO_PORTE_DATA_R & MOTION)){
-      //GPIO_PORTE_DATA_R |= 0x04;
+      GPIO_PORTE_DATA_R |= 0x04;
       GPIO_PORTF_DATA_R |= BLUE;
       for(int i=0 ; i<Delay ; i++){
         GPTM_D_ONESHOT();}
-    //GPIO_PORTE_DATA_R &=~ 0x04;
-    GPIO_PORTF_DATA_R &=~ BLUE;
+        GPIO_PORTE_DATA_R &=~ 0x04;
+        GPIO_PORTF_DATA_R &=~ BLUE;
     
     }
     }
